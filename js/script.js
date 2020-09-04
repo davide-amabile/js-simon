@@ -21,7 +21,9 @@ function numRdnFrom1 (min, max, numRdn) {
 }
 
 // chiedere 5 numeri all'utente dopo 30 secondi chiuso l'allert
+setTimeout( myFunction, 5000);
 
+function myFunction() {
 var numUtente = [];
 
 var i = 0;
@@ -35,6 +37,8 @@ while ( i < 5 ) {
   }
 }
 console.log(numUtente);
+
+}
 
 
 
