@@ -17,7 +17,7 @@ function numRdnFrom1 (min, max, numRdn) {
 }
 
 //3. chiedere 5 numeri all'utente dopo 30 secondi chiuso l'allert
-setTimeout( myFunction, 5000);
+setTimeout( myFunction, 30000);
 
 function myFunction() {
 // array numeri uguali
